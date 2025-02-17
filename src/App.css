@@ -1,0 +1,204 @@
+.headerText {
+  color: #ff5a5f;
+  margin: 20px 40px;
+}
+
+.headerContainer {
+  height: 70px;
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.headPicSection {
+  width: 80%;
+  height: 400px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.headPicSection > div {
+  width: 20%;
+  height: 95%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.headPicSection > div > div {
+  width: 100%;
+  height: 50%;
+  background-size: cover;
+  background-position: center;
+  margin: 5px 0;
+  border-radius: 10px;
+}
+
+#headpic1 {
+  background-image: url(./img/headpic1.png);
+}
+#headpic2 {
+  background-image: url(./img/headpic2.png);
+}
+#headpic3 {
+  background-image: url(./img/headpic3.png);
+}
+#headpic4 {
+  background-image: url(./img/headpic4.png);
+}
+#headpic5 {
+  background-image: url(./img/headpic5.png);
+}
+#headpic6 {
+  background-image: url(./img/headpic6.png);
+}
+#headpic7 {
+  background-image: url(./img/headpic7.png);
+}
+#headpic8 {
+  background-image: url(./img/headpic8.png);
+}
+#headpic9 {
+  background-image: url(./img/headpic9.png);
+}
+
+.infoHeader {
+  width: 400px;
+  height: 40px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 40px;
+  margin: 0px 40px;
+}
+
+.infoText {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 18px;
+  margin: 20px 40px;
+}
+
+.cardsSection {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 90px 0 20px;
+  height: 500px;
+}
+
+.cardContainer {
+  width: 30%;
+  height: 100%;
+  padding: 10px;
+  position: relative;
+}
+
+.cardsImg {
+  width: 90%;
+  height: 370px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+#one {
+  background-image: url(./img/card1.png);
+}
+
+#two {
+  background-image: url(./img/card2.jfif);
+}
+
+#three {
+  background-image: url(./img/card3.jfif);
+}
+
+.headSection {
+  width: 90%;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.star {
+  width: 20px;
+  height: 20px;
+  background-color: #ff5a5f;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+}
+
+.rate {
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+.rateNumber,
+.country {
+  margin-left: 5px;
+  font-size: 16px;
+  color: rgba(145, 142, 155, 1);
+}
+
+.infoSection {
+  width: 90%;
+  margin-top: 15px;
+}
+
+.about {
+  font-size: 18px;
+  font-weight: 300;
+  color: rgba(34, 34, 34, 1);
+}
+
+.cost {
+  margin-top: 7px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.isOnline {
+  position: absolute;
+  z-index: 2;
+  top: 20px;
+  left: 20px;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.valueContain {
+  width: 80%;
+  height: 50%;
+  margin: auto;
+}
+
+.increament,
+.decreament {
+  margin: 50px 20px;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.increament {
+  background-color: greenyellow;
+}
+
+.decreament {
+  background-color: red;
+}
+
+.value {
+  font-size: 40px;
+}
