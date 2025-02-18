@@ -50,6 +50,7 @@ function App() {
             card;
           return (
             <Cards
+              key={id}
               img={img}
               title={about}
               rate={rate}
