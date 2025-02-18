@@ -1,8 +1,7 @@
 import { StrictMode, useState } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import { Cards, Cards2, HeaderImgs, Info } from "./App";
-import Header from "./header";
+import { Cards, Cards2, Header, HeaderImgs, Info } from "./App";
 
 function MainCard() {
   const CRADS_INFO = [

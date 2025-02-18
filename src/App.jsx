@@ -1,6 +1,5 @@
 import "./App.css";
-
-
+import Header from "./header";
 
 function HeaderImgs() {
   return (
@@ -110,7 +109,11 @@ function Cards() {
       </div>
     </div>
   ));
-  return <div className="cardsSection">{cardsTemplate}</div>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
 
 function Cards2({ template }) {
