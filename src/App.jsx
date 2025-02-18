@@ -1,7 +1,8 @@
+import { useState } from "react";
 import "./App.css";
-import Info from "./Info";
-import Slider from "./Slider";
-import Header from "./header";
+import Header from "./Components/header";
+import Slider from "./Components/Slider";
+import Info from "./Components/Info";
 
 function App() {
   const CRADS_INFO = [
