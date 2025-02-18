@@ -1,13 +1,6 @@
-import { useState } from "react";
 import "./App.css";
 
-function Header() {
-  return (
-    <div className="headerContainer">
-      <h1 className="headerText">airbnb</h1>
-    </div>
-  );
-}
+
 
 function HeaderImgs() {
   return (
