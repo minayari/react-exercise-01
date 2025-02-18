@@ -63,7 +63,7 @@
   background-image: url(./img/headpic9.png);
 }
 
-.infoHeader {
+.infoContainer__header {
   width: 400px;
   height: 40px;
   font-size: 40px;
@@ -72,7 +72,7 @@
   margin: 0px 40px;
 }
 
-.infoText {
+.infoContainer__text {
   font-size: 20px;
   font-weight: 300;
   line-height: 18px;
