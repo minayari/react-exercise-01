@@ -86,14 +86,14 @@
   height: 500px;
 }
 
-.cardsContainer {
+.cards {
   width: 30%;
   height: 100%;
   padding: 10px;
   position: relative;
 }
 
-.cardsImg {
+.cards__img {
   width: 100%;
   height: 80%;
   object-fit: cover;
@@ -101,7 +101,7 @@
   border-radius: 10px;
 }
 
-.headSection {
+.cards__header {
   width: 90%;
   height: 20px;
   display: flex;
@@ -109,30 +109,30 @@
   margin-top: 10px;
 }
 
-.rate {
+.cards__rate {
   margin-left: 5px;
   font-size: 16px;
 }
 
-.rateNumber,
-.country {
+.cards__rate-number,
+.cards__location {
   margin-left: 5px;
   font-size: 16px;
   color: rgba(145, 142, 155, 1);
 }
 
-.infoSection {
+.cards__info {
   width: 90%;
   margin-top: 15px;
 }
 
-.about {
+.cards__tile {
   font-size: 18px;
   font-weight: 300;
   color: rgba(34, 34, 34, 1);
 }
 
-.cost {
+.cards__cost {
   margin-top: 7px;
   font-size: 18px;
   font-weight: 600;

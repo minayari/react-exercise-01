@@ -8,9 +8,9 @@ export default function Cards({
   isOnline,
 }) {
   return (
-    <div className="cardsContainer">
-      <img className="cardsImg" src={img} alt="pic" />
-      <div className="headSection">
+    <div className="cards">
+      <img className="cards__img" src={img} alt="pic" />
+      <div className="cards__header">
         <svg
           width="12"
           height="11"
@@ -23,13 +23,13 @@ export default function Cards({
             fill="#FE395C"
           />
         </svg>
-        <p className="rate">{rate}</p>
-        <p className="rateNumber">({rateCount})</p>
-        <p className="country">{location}</p>
+        <p className="cards__rate">{rate}</p>
+        <p className="cards__rate-number">({rateCount})</p>
+        <p className="cards__location">{location}</p>
       </div>
-      <div className="infoSection">
-        <p className="about">{title}</p>
-        <p className="cost">${cost}</p>
+      <div className="cards__info">
+        <p className="cards__title">{title}</p>
+        <p className="cards__cost">${cost}</p>
       </div>
       {isOnline && <div className="isOnline">Online</div>}
     </div>
