@@ -35,31 +35,31 @@
   border-radius: 10px;
 }
 
-#headpic1 {
+#headPicSection__item1 {
   background-image: url(/img/headpic1.png);
 }
-#headpic2 {
+#headPicSection__item2 {
   background-image: url(./img/headpic2.png);
 }
-#headpic3 {
+#headPicSection__item3 {
   background-image: url(./img/headpic3.png);
 }
-#headpic4 {
+#headPicSection__item4 {
   background-image: url(./img/headpic4.png);
 }
-#headpic5 {
+#headPicSection__item5 {
   background-image: url(./img/headpic5.png);
 }
-#headpic6 {
+#headPicSection__item6 {
   background-image: url(./img/headpic6.png);
 }
-#headpic7 {
+#headPicSection__item7 {
   background-image: url(./img/headpic7.png);
 }
-#headpic8 {
+#headPicSection__item8 {
   background-image: url(./img/headpic8.png);
 }
-#headpic9 {
+#headPicSection__item9 {
   background-image: url(./img/headpic9.png);
 }
 
