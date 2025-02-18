@@ -8,7 +8,7 @@ export default function Cards({
   isOnline,
 }) {
   return (
-    <div className="cards">
+    <div className="cards" >
       <img className="cards__img" src={img} alt="pic" />
       <div className="cards__header">
         <svg
