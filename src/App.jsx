@@ -1,45 +1,9 @@
 import "./App.css";
+import Info from "./Info";
+import Slider from "./Slider";
 import Header from "./header";
 
-function HeaderImgs() {
-  return (
-    <div className="headPicSection">
-      <div>
-        <div id="headpic1"></div>
-      </div>
-      <div>
-        <div id="headpic2"></div>
-        <div id="headpic3"></div>
-      </div>
-      <div>
-        <div id="headpic4"></div>
-        <div id="headpic5"></div>
-      </div>
-      <div>
-        <div id="headpic6"></div>
-        <div id="headpic7"></div>
-      </div>
-      <div>
-        <div id="headpic8"></div>
-        <div id="headpic9"></div>
-      </div>
-    </div>
-  );
-}
-
-function Info() {
-  return (
-    <div className="infoContainer">
-      <p className="infoHeader">Online Experiences</p>
-      <p className="infoText">
-        Join unique interactive activities led by one-of-a-kind hosts—all
-        without leaving home.
-      </p>
-    </div>
-  );
-}
-
-function Cards() {
+function App() {
   const CRADS_INFO = [
     {
       id: 1,
@@ -70,54 +34,17 @@ function Cards() {
     },
   ];
 
-  function numberToWord(num) {
-    const mapping = {
-      0: "zero",
-      1: "one",
-      2: "two",
-      3: "three",
-    };
-    return num
-      .toString()
-      .split("")
-      .map((digit) => mapping[digit])
-      .join("");
-  }
-
-  const cardsTemplate = CRADS_INFO.map((obj) => (
-    <div className="cardContainer" key={obj.id}>
-      <span
-        style={{ display: obj.isOnline ? "inline-block" : "none" }}
-        className="isOnline"
-      >
-        ONLINE
-      </span>
-
-      <div className="cardsImg" id={numberToWord(obj.id)}></div>
-      <div className="headSection">
-        <div className="star"></div>
-        <p className="rate">{obj.rate}</p>
-        <p className="rateNumber">({obj.rateNumber})</p>
-        <p className="country">
-          {"\u2022"}
-          {obj.country}
-        </p>
-      </div>
-      <div className="infoSection">
-        <p className="about">{obj.about}</p>
-        <p className="cost">${obj.cost}</p>
-      </div>
-    </div>
-  ));
   return (
     <>
       <Header />
+      <Slider />
+      <Info />
     </>
   );
 }
 
-function Cards2({ template }) {
-  return <div className="cardsSection">{template}</div>;
-}
+// function Cards2({ template }) {
+//   return <div className="cardsSection">{template}</div>;
+// }
 
-export { Header, HeaderImgs, Info, Cards, Cards2 };
+export { App, Header, Slider, Info };
